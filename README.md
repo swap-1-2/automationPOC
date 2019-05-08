@@ -2,18 +2,26 @@
 This is automation framework for Rest API /albulms and /Usres
 
 Prerequisites:
-The framework requires packages to be installed with pycharm IDE json, unittest, jsonschema, requests, xmlrunner, Constants, Utility
+The framework requires packages to be installed with pycharm IDE 
+1) json
+2) unittest
+3) jsonschema
+4) requests
+5) xmlrunner
+6) Constants
+7) Utility
 
 ## Usage
 
 C:\Users\xyz\PycharmProjects\POC> python -m unittest restAPIAutomation.py Constants.py Utility.py
- Checking JSON schema for https://jsonplaceholder.typicode.com/albums 
+
+.Checking JSON schema for https://jsonplaceholder.typicode.com/albums 
 0.3325035572052002
- Checking JSON schema for https://jsonplaceholder.typicode.com/users 
+ .Checking JSON schema for https://jsonplaceholder.typicode.com/users 
 0.08449840545654297
- Checking status code for https://jsonplaceholder.typicode.com/albums 
+ .Checking status code for https://jsonplaceholder.typicode.com/albums 
 0.07399821281433105
- Checking status code for https://jsonplaceholder.typicode.com/users 
+ .Checking status code for https://jsonplaceholder.typicode.com/users 
 0.09149956703186035
 .
 ----------------------------------------------------------------------
