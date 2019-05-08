@@ -35,4 +35,4 @@ if __name__ == "__main__":
     test_runner = xmlrunner.XMLTestRunner(output="test_reports")
     test_suite = unittest.TestSuite()
     test1 = unittest.makeSuite(RestApiTestSmokeTest)
-    test_runner.run(main)
+    test_runner.run(test1)
