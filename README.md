@@ -34,6 +34,6 @@ It has
 
 1) JsonSchema directory : For json schema file
 2) Constants.py : for keeping all test data
-3) restAPIAutomation.py : for test cases functions
+3) restAPIAutomation.py : for test cases functions and It has main function 
 4) Utility.py : for keeping all reusable functions
 5) test-reports : xml test report will get generated after every run
